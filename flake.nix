@@ -74,7 +74,7 @@
           packages = with pkgs; [
             go
             gopls
-            controller-tools
+            kubernetes-controller-tools
             golangci-lint
           ];
         };
