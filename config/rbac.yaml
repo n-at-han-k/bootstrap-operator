@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: bootstrap-operator
-  namespace: bootstrap-operator-system
+  namespace: bootstrap
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
@@ -60,13 +60,13 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: bootstrap-operator
-  namespace: bootstrap-operator-system
+  namespace: bootstrap
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: bootstrap-operator-leader-election
-  namespace: bootstrap-operator-system
+  namespace: bootstrap
 rules:
 - apiGroups: ["coordination.k8s.io"]
   resources: ["leases"]
@@ -79,7 +79,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: bootstrap-operator-leader-election
-  namespace: bootstrap-operator-system
+  namespace: bootstrap
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
@@ -87,4 +87,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: bootstrap-operator
-  namespace: bootstrap-operator-system
+  namespace: bootstrap
