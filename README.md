@@ -152,5 +152,5 @@ helm uninstall bootstrap-operator --namespace bootstrap-operator-system
 Note: CRDs are not removed by `helm uninstall`. To remove them manually:
 
 ```bash
-kubectl delete crd images.bootstrap.cia.net registries.bootstrap.cia.net repoes.bootstrap.cia.net
+kubectl delete crd images.bootstrap.cia.net registries.bootstrap.cia.net repos.bootstrap.cia.net
 ```

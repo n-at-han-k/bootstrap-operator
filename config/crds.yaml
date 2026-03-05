@@ -336,13 +336,13 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.19.0
-  name: repoes.bootstrap.cia.net
+  name: repos.bootstrap.cia.net
 spec:
   group: bootstrap.cia.net
   names:
     kind: Repo
     listKind: RepoList
-    plural: repoes
+    plural: repos
     shortNames:
     - repo
     singular: repo
