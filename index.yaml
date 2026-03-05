@@ -3,6 +3,20 @@ entries:
   bootstrap-operator:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2026-03-05T07:29:38.237726951Z"
+    description: A Kubernetes operator for bootstrapping git repos, container registries,
+      and Nix-based image builds.
+    digest: 1842004f5f377f69843c7a197bb99023abcfaeb1a77029cd334da1456028fad1
+    home: https://github.com/n-at-han-k/bootstrap-operator
+    maintainers:
+    - name: n-at-han-k
+    name: bootstrap-operator
+    type: application
+    urls:
+    - https://github.com/n-at-han-k/bootstrap-operator/releases/download/bootstrap-operator-0.1.1/bootstrap-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2026-03-05T06:45:49.621949457Z"
     description: A Kubernetes operator for bootstrapping git repos, container registries,
       and Nix-based image builds.
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://github.com/n-at-han-k/bootstrap-operator/releases/download/bootstrap-operator-0.1.0/bootstrap-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-05T06:45:49.62195636Z"
+generated: "2026-03-05T07:29:38.237734786Z"
