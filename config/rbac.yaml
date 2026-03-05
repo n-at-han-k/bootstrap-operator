@@ -10,13 +10,13 @@ metadata:
   name: bootstrap-operator
 rules:
 - apiGroups: ["bootstrap.cia.net"]
-  resources: ["repos"]
+  resources: ["repoes"]
   verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
 - apiGroups: ["bootstrap.cia.net"]
-  resources: ["repos/status"]
+  resources: ["repoes/status"]
   verbs: ["get", "update", "patch"]
 - apiGroups: ["bootstrap.cia.net"]
-  resources: ["repos/finalizers"]
+  resources: ["repoes/finalizers"]
   verbs: ["update"]
 - apiGroups: ["bootstrap.cia.net"]
   resources: ["registries"]

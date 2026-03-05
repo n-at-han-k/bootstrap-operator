@@ -17,7 +17,7 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
-        version = "0.1.2";
+        version = "0.1.3";
         imageRepo = "registry.cia.net/operators/bootstrap-operator";
 
         # ── Output 1: static Go binary ──────────────────────────────────

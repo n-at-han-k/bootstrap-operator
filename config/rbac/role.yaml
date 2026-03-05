@@ -53,7 +53,7 @@ rules:
   resources:
   - images
   - registries
-  - repos
+  - repoes
   verbs:
   - create
   - delete
@@ -67,7 +67,7 @@ rules:
   resources:
   - images/finalizers
   - registries/finalizers
-  - repos/finalizers
+  - repoes/finalizers
   verbs:
   - update
 - apiGroups:
@@ -75,7 +75,7 @@ rules:
   resources:
   - images/status
   - registries/status
-  - repos/status
+  - repoes/status
   verbs:
   - get
   - patch
