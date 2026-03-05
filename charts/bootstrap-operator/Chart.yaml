@@ -1,0 +1,9 @@
+apiVersion: v2
+name: bootstrap-operator
+description: A Kubernetes operator for bootstrapping git repos, container registries, and Nix-based image builds.
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+home: https://github.com/n-at-han-k/bootstrap-operator
+maintainers:
+  - name: n-at-han-k
